@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 16px;
+}
+
+/* Card layout */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Price highlight */
+.price {
+  font-weight: bold;
+  color: #16a34a;
+  margin-top: 6px;
+}
+
+/* Buttons */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* Small text */
+.text-muted {
+  color: #6b7280;
+  font-size: 14px;
+}
